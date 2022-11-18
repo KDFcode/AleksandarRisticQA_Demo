@@ -12,8 +12,6 @@ import java.util.List;
 public class Korpa {
     private WebDriver driver;
 
-
-
     @FindBy(id= "totalp")
     private WebElement total; //<h3 class="panel-title" id="totalp">1550</h3> //odatle lako preuzimam ukupnu cenu
 
@@ -45,15 +43,10 @@ public class Korpa {
         return toReturn;
     }
 
-
-
-
     public int cenaProizvoda() {
 
         int toReturn;
        int cena=0;
-
-
        String cenaTekst= total.getText();
         cena= Integer.parseInt(cenaTekst);
         if(cena == 0) {
@@ -64,12 +57,6 @@ public class Korpa {
         }
         return toReturn;
     }
-
-
-
-
-
-
 
     public WebDriver getDriver() {
         return driver;

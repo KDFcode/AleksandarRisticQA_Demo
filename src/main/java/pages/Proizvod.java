@@ -7,8 +7,7 @@ public class Proizvod {
     private Double price;//cena
     private String imgSource;//izvor slike tj. lokacija
 
-    private String description; //opis (ovo u saucedemo-u nije bilo ubacivano)
-    //OVO DODATI I U NAKNADNE KLASE
+    private String description; //opis //ovo iskoristiti bolje
 
     public String getDescription() {
         return description;

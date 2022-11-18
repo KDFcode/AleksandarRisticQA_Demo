@@ -18,10 +18,7 @@ public class PocetnaStrana {
         return new StranicaZaLogovanje(driver);
     }
 
-    public StranicaZaPrijavu clickSignUp(){
-        clickLink("Sign up");
-        return new StranicaZaPrijavu(driver);
-    }
+
 
     public MobilniStranicaPrimer clickMobilni(){
         clickLink("Samsung galaxy s6");
