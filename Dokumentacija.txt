@@ -1,0 +1,35 @@
+
+Potrebe projekta:
+U aplikaciji “https://www.demoblaze.com/” pisemo test za login.
+
+   Nakon logovanja sa test/test kredencijalima verifikovati da smo se ulogovali.
+
+U aplikaciji “https://www.demoblaze.com/” pisemo testove za verifikaciju cene proizvoda u korpi.
+
+   Nakon dodavanja proizvoda verifikovati cenu u korpi (proizvode dodavati po imenu).
+
+U aplikaciji “https://www.demoblaze.com/” pisemo testove za proveru dodavanja proizvoda u korpu.
+
+    Nakon dodavanja proizvoda verifikovati da je proizvod dodat u korpu (tabela i rad sa tabelama).
+
+
+
+
+Radi toga imamo klase koje nam sluze za imitaranje odredjenih delova sajta.
+One imaju svoje metode koje imitaraju tj. koriste funkcije sajta.
+Imamo takodje i baznu Test klasu,koju sve ostale test klase nasledjuju.
+
+TestLogovanja proverava da li se korisnik loguje.
+Prvo se proverava pravilan unos,a onda nepravilan.
+U skladu sa time prvo se unose qaProjekatUser i qaProjekatPassword,a naknadno qaProjekatUserNeregistrovan i qaProjekatPasswordLos.
+
+TestProizvoda podrazumeva proveru promene cene u korpi nakon dodavanja proizvoda u istu.
+Dodaju se specificni proizvodi po imenu,konkretno Samsung galaxy s6(telefon),Apple monitor 24(monitor),kao i 
+Sony vaio i5(laptop).
+
+
+TestKorpe proverava informacije elemenata u tabeli korpe,te onda konkretno ispisuje njihove nazive i cenu.
+
+
+
+
